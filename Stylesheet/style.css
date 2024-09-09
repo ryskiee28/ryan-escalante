@@ -1,0 +1,158 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-size: 14px;
+  }
+  
+ 
+  
+  .btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+  }
+  
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+
+  
+
+
+section{
+    margin-left: 50px;
+    margin-right: 50px;
+    height: 100vh;
+    scroll-behavior: smooth;
+     
+}
+
+footer{
+
+  height: 200px;
+}
+.img-back {
+  background-color: white; 
+}
+.nav-links {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 2px; 
+}
+.card{
+
+  width: 100%;
+}
+
+#Products{
+  height: 200vh;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+ 
+  #Products {
+    height: 550vh;
+  }
+}
+
+#umHistory{
+  height: 430vh;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+ 
+  #umHistory {
+    height: 1100vh;
+  }
+}
+
+
+@media (max-width:768px){
+
+  .profile{
+
+    margin-top: 20px;
+  }
+}
+
+#CSHISTORY{
+  height: 90vh;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+ 
+  #CSHISTORY {
+    height: 195vh;
+  }
+}
+
+
+
+#CSHISTORYCONTINUE{
+  height: 85vh;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+ 
+  #CSHISTORYCONTINUE {
+    height: 190vh;
+  }
+}
+
+
+#events{
+  height: 130vh;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+ 
+  #events {
+    height: 470vh;
+    margin: 2px;
+    padding: 0;
+  }
+}
+
+
+
+#magazine{
+  height: 200vh;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+ 
+  #magazine {
+    height: 510vh;
+  }
+}
+
+
+#Family{
+
+  height: 125vh;
+}
+@media (max-width: 768px) {
+  #Family {
+    background-size: contain;
+    height: 50vh;
+  }
+}
+
+
+#location{
+
+  height: 100vh;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  #location {
+    background-size: contain;
+    height: 118vh;
+  }
+}
+
